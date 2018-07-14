@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AdminGOAL</string>
+    <string-array name="sa">
+        <item>Student</item>
+        <item>Alumni</item>
+    </string-array>
+    <string-array name="works">
+        <item>Capgemini</item>
+        <item>TCS</item>
+        <item>Accenture</item>
+        <item>Cognizant</item>
+        <item>Musigma</item>
+        <item>Wipro</item>
+        <item>Infosys</item>
+        <item>Hiradius</item>
+        <item>TekSystems</item>
+        <item>Delloite</item>
+        <item>Mediamint</item>
+        <item>Directi</item>
+        <item>Byjus</item>
+        <item>Amazon</item>
+        <item>Google</item>
+        <item>Adobe</item>
+        <item>Collabera</item>
+        <item>Calsoft</item>
+        <item>Cybage</item>
+        <item>Juspay</item>
+        <item>IBS</item>
+        <item>Mindtree</item>
+    </string-array>
+</resources>
