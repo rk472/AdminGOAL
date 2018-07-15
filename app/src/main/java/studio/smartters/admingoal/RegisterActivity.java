@@ -115,6 +115,7 @@ public class RegisterActivity extends AppCompatActivity {
                         Map<String , Object> map = new HashMap<>();
                         map.put("name",mName.getText().toString());
                         map.put("company",uWork);
+                        map.put("email",email);
                         map.put("dp","none");
                         FirebaseDatabase.getInstance().getReference().child("users").child(task.getResult().getUser().getUid()).updateChildren(map).addOnCompleteListener(new OnCompleteListener<Void>() {
                             @Override
