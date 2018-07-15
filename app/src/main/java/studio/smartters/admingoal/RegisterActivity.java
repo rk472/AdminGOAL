@@ -109,7 +109,7 @@ public class RegisterActivity extends AppCompatActivity {
                             uWork = "none";
                         FirebaseUser user = mAuth.getCurrentUser();
                         UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
-                                .setDisplayName(uType + "*" + uWork)
+                                .setDisplayName(uType + "/" + uWork)
                                 .build();
                         user.updateProfile(profileUpdates);
                         Map<String , Object> map = new HashMap<>();
